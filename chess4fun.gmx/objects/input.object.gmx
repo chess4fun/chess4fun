@@ -140,7 +140,7 @@ if draw=true {draw=false; slection=0; exit;}
         draw_text(550,160,'You have selected correct option'); 
         if global.max_puzzles=global.my_puzzle
         {
-            draw_text(550,170,'Congratulations you have solved all puzzles');
+            draw_text(550,180,'Congratulations you have solved all puzzles');
         } 
         else
         {

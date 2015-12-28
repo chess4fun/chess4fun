@@ -79,7 +79,7 @@ room_goto(room2);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check(vk_numpad5)
+            <string>if keyboard_check(vk_anykey)
 {
 if enter=false {enter=true; exit;}
 if enter=true {enter=false; exit;}
