@@ -16,7 +16,8 @@ for (var i = 0; i < 1; i++)
     var theEntry = ds_list_find_value(theList, i);
     //draw_text(500,60,"You are at Level "+theEntry[? "LEVEL"]);
     //+" puzzle "+theEntry[? "PUZZLE"]);
-    draw_text(550,60,"You are on puzzle "+theEntry[? "PUZZLE"]);
+    draw_text(550,40,"You are on level "+string(global.my_level));
+    draw_text(550,60,"You are on puzzle "+string(theEntry[? "PUZZLE"]));
     draw_text(550,80,"1. "+theEntry[? "OPTION1"]);
     draw_text(550,100,"2. "+theEntry[? "OPTION2"]);
     draw_text(550,120,"3. "+theEntry[? "OPTION3"]);

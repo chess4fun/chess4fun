@@ -145,6 +145,12 @@ if draw=true {draw=false; slection=0; exit;}
         else
         {
             global.my_puzzle +=1;
+            global.puzzles_solved_in_level +=1;
+            if global.puzzles_solved_in_level = global.puzzles_per_level
+            {
+               global.puzzles_solved_in_level = 0;
+               global.my_level +=1; 
+            }
             room_goto(room2);
         }
     }
