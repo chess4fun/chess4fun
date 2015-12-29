@@ -566,10 +566,14 @@
     <sprite>sprites\black_queen</sprite>
     <sprite>sprites\white_pawn</sprite>
     <sprite>sprites\black_pawn</sprite>
+    <sprite>sprites\sprite14</sprite>
+    <sprite>sprites\sprite15</sprite>
+    <sprite>sprites\spr_camel</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\splash</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -583,6 +587,7 @@
     <object>objects\objectwhite</object>
     <object>objects\input</object>
     <object>objects\navigate</object>
+    <object>objects\obj_camel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room3</room>
