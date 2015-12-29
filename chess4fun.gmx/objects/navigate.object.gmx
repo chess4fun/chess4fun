@@ -57,7 +57,8 @@ global.my_puzzle = 1;
 global.max_puzzles = 15;
 global.puzzles_per_level = 3;
 global.puzzles_solved_in_level = 0;
-room_goto(room2); 
+global.spr_animation = "spr_pawn";
+room_goto(level1); 
 }
 </string>
           </argument>

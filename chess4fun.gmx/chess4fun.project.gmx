@@ -569,18 +569,27 @@
     <sprite>sprites\sprite14</sprite>
     <sprite>sprites\sprite15</sprite>
     <sprite>sprites\spr_camel</sprite>
+    <sprite>sprites\spr_pawn</sprite>
+    <sprite>sprites\options_background</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\splash</background>
     <background>background\background2</background>
+    <background>background\green</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path1</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\json.gml</script>
     <script>scripts\puzzles.gml</script>
     <script>scripts\answer.gml</script>
+    <script>scripts\animation.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\objectBlack</object>
     <object>objects\object3</object>
@@ -588,10 +597,13 @@
     <object>objects\input</object>
     <object>objects\navigate</object>
     <object>objects\obj_camel</object>
+    <object>objects\obj_pawn</object>
+    <object>objects\obj_options</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room3</room>
-    <room>rooms\room2</room>
+    <room>rooms\level1</room>
+    <room>rooms\level2</room>
     <room>rooms\room1</room>
   </rooms>
   <help>

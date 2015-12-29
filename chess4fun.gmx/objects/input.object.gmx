@@ -133,7 +133,9 @@ if draw=true {draw=false; slection=0; exit;}
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if draw=true
+            <string>draw_set_font(font0);
+draw_set_color(c_red);
+if draw=true
 {
     if selection=global.correct_answer
     {
@@ -150,8 +152,12 @@ if draw=true {draw=false; slection=0; exit;}
             {
                global.puzzles_solved_in_level = 0;
                global.my_level +=1; 
+               room_goto(level2);
             }
-            room_goto(room2);
+            else
+            {
+                room_goto(level1);
+            }
         }
     }
     else
