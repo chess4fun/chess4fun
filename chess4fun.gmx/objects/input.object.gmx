@@ -51,48 +51,6 @@ selection=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*if keyboard_check(vk_numpad1)
-{
-if draw=false {draw=true; slection=1; exit;}
-if draw=true {draw=false; slection=0; exit;}
-}
-if keyboard_check(vk_numpad2)
-{
-if draw=false {draw=true; slection=2; exit;}
-if draw=true {draw=false; slection=0; exit;}
-}
-if keyboard_check(vk_numpad3)
-{
-if draw=false {draw=true; slection=3; exit;}
-if draw=true {draw=false; slection=0; exit;}
-}
-if keyboard_check(vk_numpad4)
-{
-if draw=false {draw=true; slection=4; exit;}
-if draw=true {draw=false; slection=0; exit;}
-}*/
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string> if keyboard_check_pressed(vk_numpad1)
     {
     selection=1;
@@ -117,6 +75,8 @@ if draw=true {draw=false; slection=0; exit;}
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -133,7 +93,48 @@ if draw=true {draw=false; slection=0; exit;}
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(font0);
+            <string>/* if keyboard_check_pressed(vk_numpad1)
+    {
+    selection=1;
+    draw=true;
+    }
+ if keyboard_check_pressed(vk_numpad2)
+    {
+    selection=2;
+    draw=true;
+    }
+ if keyboard_check_pressed(vk_numpad3)
+    {
+    selection=3;
+    draw=true;
+    }
+ if keyboard_check_pressed(vk_numpad4)
+    {
+    selection=4;
+    draw=true;
+    }*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>scr_input_analysis();
+/*draw_set_font(font0);
 draw_set_color(c_red);
 if draw=true
 {
@@ -164,7 +165,7 @@ if draw=true
     {
         draw_text(550,160,'That is not correct, please tryagain'); 
     }
-}
+}*/
 </string>
           </argument>
         </arguments>

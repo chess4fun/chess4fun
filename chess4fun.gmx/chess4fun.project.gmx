@@ -550,7 +550,10 @@
     </datafile>
   </datafiles>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\horse</sound>
+    <sound>sound\pawn</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_white</sprite>
     <sprite>sprites\sprite_black</sprite>
@@ -570,6 +573,7 @@
     <sprite>sprites\sprite15</sprite>
     <sprite>sprites\spr_camel</sprite>
     <sprite>sprites\spr_pawn</sprite>
+    <sprite>sprites\spr_horse</sprite>
     <sprite>sprites\options_background</sprite>
   </sprites>
   <backgrounds name="background">
@@ -584,7 +588,7 @@
   <scripts name="scripts">
     <script>scripts\json.gml</script>
     <script>scripts\puzzles.gml</script>
-    <script>scripts\answer.gml</script>
+    <script>scripts\scr_input_analysis.gml</script>
     <script>scripts\animation.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -598,12 +602,16 @@
     <object>objects\navigate</object>
     <object>objects\obj_camel</object>
     <object>objects\obj_pawn</object>
+    <object>objects\obj_horse</object>
     <object>objects\obj_options</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room3</room>
     <room>rooms\level1</room>
     <room>rooms\level2</room>
+    <room>rooms\level3</room>
+    <room>rooms\level4</room>
+    <room>rooms\level5</room>
     <room>rooms\room1</room>
   </rooms>
   <help>
