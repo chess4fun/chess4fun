@@ -8,6 +8,10 @@ if draw=true
         if global.max_puzzles=global.my_puzzle
         {
             draw_text(550,180,'Congratulations you have solved all puzzles');
+            sprite_index = asset_get_index("spr_congrats");
+            draw_sprite(sprite_index, 0, 150, 600); 
+            sprite_index = asset_get_index("spr_completed");
+            draw_sprite(sprite_index, 0, 150, 800); 
         } 
         else
         {
@@ -17,6 +21,11 @@ if draw=true
             {
                global.puzzles_solved_in_level = 0;
                global.my_level +=1; 
+            sprite_index = asset_get_index("spr_congrats");
+            draw_sprite(sprite_index, 0, 150, 600); 
+            sprite_index = asset_get_index("spr_next_level");
+            draw_sprite(sprite_index, 0, 150, 800); 
+            
                //room_goto(level2);
             }
             else
@@ -29,7 +38,7 @@ if draw=true
     }
     else
     {
-        draw_text(550,160,'That is not correct, please tryagain'); 
+        draw_text(550,160,'That is not correct, please try again'); 
     }
 }
 

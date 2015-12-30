@@ -576,6 +576,11 @@
     <sprite>sprites\spr_horse</sprite>
     <sprite>sprites\options_background</sprite>
     <sprite>sprites\running_pawn</sprite>
+    <sprite>sprites\Msg1</sprite>
+    <sprite>sprites\spr_msg2</sprite>
+    <sprite>sprites\spr_congrats</sprite>
+    <sprite>sprites\spr_next_level</sprite>
+    <sprite>sprites\spr_completed</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -598,6 +603,7 @@
   <objects name="objects">
     <object>objects\objectBlack</object>
     <object>objects\object3</object>
+    <object>objects\obj_exit</object>
     <object>objects\objectwhite</object>
     <object>objects\input</object>
     <object>objects\navigate</object>
@@ -605,6 +611,8 @@
     <object>objects\obj_pawn</object>
     <object>objects\obj_horse</object>
     <object>objects\obj_options</object>
+    <object>objects\obj_Msg1</object>
+    <object>objects\obj_msg2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room3</room>
