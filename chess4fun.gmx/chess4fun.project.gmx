@@ -575,6 +575,7 @@
     <sprite>sprites\spr_pawn</sprite>
     <sprite>sprites\spr_horse</sprite>
     <sprite>sprites\options_background</sprite>
+    <sprite>sprites\running_pawn</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
