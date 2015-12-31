@@ -553,6 +553,7 @@
   <sounds name="sound">
     <sound>sound\horse</sound>
     <sound>sound\pawn</sound>
+    <sound>sound\applause</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_white</sprite>
@@ -578,9 +579,12 @@
     <sprite>sprites\running_pawn</sprite>
     <sprite>sprites\Msg1</sprite>
     <sprite>sprites\spr_msg2</sprite>
+    <sprite>sprites\spr_msg3</sprite>
+    <sprite>sprites\spr_msg4</sprite>
     <sprite>sprites\spr_congrats</sprite>
     <sprite>sprites\spr_next_level</sprite>
     <sprite>sprites\spr_completed</sprite>
+    <sprite>sprites\sprite26</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -607,15 +611,24 @@
     <object>objects\objectwhite</object>
     <object>objects\input</object>
     <object>objects\navigate</object>
+    <object>objects\proceed1</object>
+    <object>objects\fialize</object>
     <object>objects\obj_camel</object>
     <object>objects\obj_pawn</object>
     <object>objects\obj_horse</object>
-    <object>objects\obj_options</object>
     <object>objects\obj_Msg1</object>
+    <object>objects\obj_options</object>
     <object>objects\obj_msg2</object>
+    <object>objects\obj_msg3</object>
+    <object>objects\obj_msg4</object>
+    <object>objects\congrats</object>
+    <object>objects\object14</object>
+    <object>objects\next</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room3</room>
+    <room>rooms\final</room>
+    <room>rooms\next_level</room>
     <room>rooms\level1</room>
     <room>rooms\level2</room>
     <room>rooms\level3</room>
