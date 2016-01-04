@@ -585,6 +585,11 @@
     <sprite>sprites\spr_next_level</sprite>
     <sprite>sprites\spr_completed</sprite>
     <sprite>sprites\sprite26</sprite>
+    <sprite>sprites\spr_pawn_jump</sprite>
+    <sprite>sprites\spr_queen_jump</sprite>
+    <sprite>sprites\spr_bishop_jump</sprite>
+    <sprite>sprites\spr_knight_jump</sprite>
+    <sprite>sprites\spr_rook_jump</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -615,6 +620,10 @@
     <object>objects\fialize</object>
     <object>objects\obj_camel</object>
     <object>objects\obj_pawn</object>
+    <object>objects\obj_knight</object>
+    <object>objects\obj_rook</object>
+    <object>objects\obj_queen</object>
+    <object>objects\obj_bishop</object>
     <object>objects\obj_horse</object>
     <object>objects\obj_Msg1</object>
     <object>objects\obj_options</object>

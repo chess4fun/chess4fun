@@ -1,11 +1,11 @@
 [
    {
-      "LEVEL":4,
-	  "PUZZLE": 11,
-	  "OPTION1": "Qd2",
-	  "OPTION2": "Kf3",
-	  "OPTION3": "Rxg4",
-	  "OPTION4": "Pb7+",
-	  "ANSWER": 2
+      "LEVEL": 3,
+      "PUZZLE": 11,
+      "OPTION1": "Qe5+,Be7,g7,Rh7,Qxe4",
+      "OPTION2": "g7+,Ke7,Qe5+,Kf7,Gxh8=N!#",
+      "OPTION3": "G7+,Ke7,Gxh8=Q!,Nf6,Qxf6",
+      "OPTION4": "1. Qxe5, Nd7 2. Ne6+, Kf7 3. Nxd8++",
+      "ANSWER": 2
    }
 ]

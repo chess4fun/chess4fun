@@ -1,1 +1,11 @@
-[{"LEVEL":2,"PUZZLE":6,"OPTION1":"1.Qg8+,Rxg8 2.Nf7#","OPTION2":"1.Nf7+,Kg8 2.Nxd8+","OPTION3":"1.Qxb7,Rb8 2.Qxb7..","OPTION4":"1.Qxg5,Qxg5 2.Nf7+,Kg8 3.Nxg5..","ANSWER":1}]
+[
+   {
+      "LEVEL": 2,
+      "PUZZLE": 6,
+      "OPTION1": "1.bb4, 2.h3,bf5, 3.pxf5,d3, 4.bxe1,pxg6",
+      "OPTION2": "1.bb4, 2.qe3,bc5, 3.qg3,ke8, 4.ne7,qh6",
+      "OPTION3": "1.bb4, 2.ba4,qg5, 3.h3,bh5, 4.d3,bxc1",
+      "OPTION4": "1.bf3, 2.ne3,bxe3, 3.g3,qxg3, 4.hxg3,rh1#",
+      "ANSWER": 4
+   }
+]

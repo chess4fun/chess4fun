@@ -2,10 +2,10 @@
    {
       "LEVEL":4,
 	  "PUZZLE": 10,
-	  "OPTION1": "Kd2",
-	  "OPTION2": "Bf3",
-	  "OPTION3": "Pxg4",
-	  "OPTION4": "Kb7+",
+	  "OPTION1": "..,Kd2",
+	  "OPTION2": "..,bxe2",
+	  "OPTION3": "1. .., Rxh2, 2.Kxh2, Ng4+, 3.Kg1, Qh6, 4.any, Qh1#",
+	  "OPTION4": "..,pe3",
 	  "ANSWER": 3
    }
 ]

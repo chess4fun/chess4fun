@@ -22,16 +22,9 @@ if draw=true
             {
             global.my_level +=1;
             global.puzzles_solved_in_level =0;
-            //sprite_index = asset_get_index("spr_congrats");
-            //draw_sprite(sprite_index, 0, 150, 600); 
-            //sprite_index = asset_get_index("spr_next_level");
-            //draw_sprite(sprite_index, 0, 150, 800); 
-            //global.proceed=false;
+ 
             enter1 = false;
             room_goto(asset_get_index('next_level'));
-            //room_goto(asset_get_index('level'+string(global.my_level)));
-            //instance_deactivate_all(self);
-               //room_goto(level2);
             }
             else
             {

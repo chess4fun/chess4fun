@@ -1,20 +1,23 @@
-[{"PIECE":"white_king","X":2,"Y":0},
-{"PIECE":"white_rook","X":3,"Y":0},
-{"PIECE":"white_rook","X":7,"Y":0},
-{"PIECE":"white_pawn","X":1,"Y":1},
-{"PIECE":"white_pawn","X":0,"Y":3},
-{"PIECE":"white_pawn","X":7,"Y":2},
-{"PIECE":"white_pawn","X":6,"Y":3},
-{"PIECE":"white_knight","X":3,"Y":3},
-{"PIECE":"white_bishop","X":2,"Y":4},
-{"PIECE":"white_bishop","X":6,"Y":4},
-{"PIECE":"black_king","X":7,"Y":7},
-{"PIECE":"black_rook","X":5,"Y":7},
-{"PIECE":"black_rook","X":1,"Y":7},
-{"PIECE":"black_bishop","X":6,"Y":5},
-{"PIECE":"black_knight","X":1,"Y":3},
-{"PIECE":"black_pawn","X":0,"Y":4},
-{"PIECE":"black_pawn","X":2,"Y":4},
-{"PIECE":"black_pawn","X":6,"Y":6},
-{"PIECE":"black_pawn","X":4,"Y":2},
-{"PIECE":"black_pawn","X":7,"Y":6}]
+X	Y	PIECE
+0	0	black_rook
+0	2	black_bishop
+0	3	black_queen
+0	4	black_king
+1	0	black_pawn
+1	1	black_pawn
+1	2	black_pawn
+1	3	black_pawn
+1	4	black_bishop
+2	5	black_pawn
+2	7	black_rook
+3	0	black_knight
+3	7	black_pawn
+4	2	white_bishop
+5	3	white_queen
+6	0	white_pawn
+6	5	white_pawn
+6	6	white_pawn
+6	7	white_pawn
+7	0	white_rook
+7	4	white_rook
+7	6	white_king

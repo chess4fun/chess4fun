@@ -54,9 +54,9 @@
     <instance objName="object3" x="0" y="0" name="inst_76181695" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="input" x="544" y="0" name="inst_38354473" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objectBlack" x="352" y="0" name="inst_F5A988DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_options" x="544" y="0" name="inst_49EED20D" locked="0" code="" scaleX="1.27999997138977" scaleY="0.959999978542328" colour="4294967295" rotation="0"/>
-    <instance objName="obj_horse" x="480" y="480" name="inst_9CE08C1A" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_options" x="512" y="-64" name="inst_49EED20D" locked="0" code="" scaleX="1.27999997138977" scaleY="0.959999978542328" colour="4294967295" rotation="0"/>
     <instance objName="obj_msg2" x="224" y="736" name="inst_C11D173E" locked="0" code="" scaleX="0.959999978542328" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bishop" x="512" y="480" name="inst_3AF436F8" locked="0" code="" scaleX="1.51181101799011" scaleY="1.5039370059967" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

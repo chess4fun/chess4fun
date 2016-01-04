@@ -1,11 +1,11 @@
 [
    {
-      "LEVEL":5,
-	  "PUZZLE": 13,
-	  "OPTION1": "Kd2",
-	  "OPTION2": "Bf3",
-	  "OPTION3": "Pxg4",
-	  "OPTION4": "Kb7+",
-	  "ANSWER": 3
+      "LEVEL": 3,
+      "PUZZLE": 13,
+      "OPTION1": "Qf7+,Qxf7,Bxf7,Kc6,Bb3",
+      "OPTION2": "Be6+,Kxe6,Qe8+,Ne7,D5#",
+      "OPTION3": "Qg4+,Ke8,Bb5,Kf8,Qf3+",
+      "OPTION4": "Qh3+, Ke8",
+      "ANSWER": 2
    }
 ]

@@ -54,7 +54,7 @@
     <instance objName="object3" x="0" y="0" name="inst_76181695" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="input" x="544" y="0" name="inst_38354473" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objectBlack" x="352" y="0" name="inst_F5A988DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pawn" x="512" y="416" name="inst_6E81B44A" locked="0" code="" scaleX="0.458452731370926" scaleY="0.73352438211441" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pawn" x="480" y="544" name="inst_6E81B44A" locked="0" code="" scaleX="1.93939399719238" scaleY="1.61616158485413" colour="4294967295" rotation="0"/>
     <instance objName="obj_options" x="544" y="0" name="inst_49EED20D" locked="0" code="" scaleX="1.27999997138977" scaleY="0.959999978542328" colour="4294967295" rotation="0"/>
     <instance objName="obj_msg2" x="224" y="736" name="inst_A7CA2B4E" locked="0" code="" scaleX="0.853333353996277" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
