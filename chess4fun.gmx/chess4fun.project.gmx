@@ -596,6 +596,9 @@
     <background>background\splash</background>
     <background>background\background2</background>
     <background>background\green</background>
+    <background>background\background4</background>
+    <background>background\bac_level3</background>
+    <background>background\bac_level4</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path1</path>
