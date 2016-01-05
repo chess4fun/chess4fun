@@ -593,6 +593,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
+    <background>background\back_chess_new</background>
     <background>background\splash</background>
     <background>background\background2</background>
     <background>background\green</background>
