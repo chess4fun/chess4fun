@@ -599,6 +599,9 @@
     <background>background\background4</background>
     <background>background\bac_level3</background>
     <background>background\bac_level4</background>
+    <background>background\bac_level5</background>
+    <background>background\background8</background>
+    <background>background\bac_congrats</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path1</path>
@@ -608,6 +611,7 @@
     <script>scripts\puzzles.gml</script>
     <script>scripts\scr_input_analysis.gml</script>
     <script>scripts\animation.gml</script>
+    <script>scripts\set_piece.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>

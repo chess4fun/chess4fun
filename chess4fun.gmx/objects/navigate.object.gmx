@@ -57,7 +57,9 @@ global.my_puzzle = 1;
 global.max_puzzles = 15;
 global.puzzles_per_level = 3;
 global.puzzles_solved_in_level = 0;
-global.spr_animation = "spr_pawn";
+global.spr_animation = "obj_pawn";
+global.score = 0;
+global.answer = true;
 //global.proceed = true;
 room_goto(level1); 
 }

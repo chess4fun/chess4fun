@@ -52,6 +52,7 @@
 json(global.my_puzzle);
 puzzles(global.my_puzzle);
 //draw1=false
+
 animation();
 //}
 </string>

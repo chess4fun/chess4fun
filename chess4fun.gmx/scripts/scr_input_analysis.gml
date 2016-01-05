@@ -3,7 +3,9 @@ draw_set_color(c_red);
 if draw=true
 {
     if selection=global.correct_answer
+
     {
+        global.score +=10;
         //draw_text(550,160,'You have selected correct option'); 
         if global.max_puzzles=global.my_puzzle
         {
@@ -21,6 +23,7 @@ if draw=true
             if global.puzzles_solved_in_level = global.puzzles_per_level
             {
             global.my_level +=1;
+            set_piece(global.my_level);
             global.puzzles_solved_in_level =0;
  
             enter1 = false;
@@ -28,15 +31,35 @@ if draw=true
             }
             else
             {
+            
+            if global.puzzles_solved_in_level = 1
+            {
+
+                obj_index = asset_get_index("obj_pawn");
+                with(obj_index){
+                    if point_distance(x, y, 804, 470) > 5
+                    {
+                    move_towards_point(804, 470, 5);
+                    }
+                    else speed = 0;
+                    //x = 804;
+                    //y = 470;
+                }
+            }
+            
                  room_goto(asset_get_index('level'+string(global.my_level)));
             }
             //room_goto(asset_get_index('level'+string(global.my_level)));
             //room_goto('level'+string(global.my_level));
         }
+        draw = false;
+        global.answer = true
     }
     else
     {
-        draw_text(550,160,'That is not correct, please try again'); 
+        global.score = global.score - 10;
+        global.answer = false
+        draw = false;
     }
 }
 

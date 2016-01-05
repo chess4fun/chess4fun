@@ -7,22 +7,23 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>33</bbox_left>
-  <bbox_right>72</bbox_right>
-  <bbox_top>6</bbox_top>
-  <bbox_bottom>81</bbox_bottom>
+  <bbox_left>52</bbox_left>
+  <bbox_right>115</bbox_right>
+  <bbox_top>35</bbox_top>
+  <bbox_bottom>159</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>100</width>
-  <height>100</height>
+  <width>168</width>
+  <height>168</height>
   <frames>
     <frame index="0">images\spr_pawn_jump_0.png</frame>
     <frame index="1">images\spr_pawn_jump_1.png</frame>
     <frame index="2">images\spr_pawn_jump_2.png</frame>
     <frame index="3">images\spr_pawn_jump_3.png</frame>
+    <frame index="4">images\spr_pawn_jump_4.png</frame>
   </frames>
 </sprite>
