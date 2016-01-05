@@ -32,7 +32,7 @@
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="-1" name="background1" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="0" name="bac_level3" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bac_correct_leve_three" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -54,9 +54,9 @@
     <instance objName="object3" x="0" y="0" name="inst_76181695" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="input" x="544" y="0" name="inst_38354473" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objectBlack" x="352" y="0" name="inst_F5A988DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_options" x="512" y="-64" name="inst_49EED20D" locked="0" code="" scaleX="1.27999997138977" scaleY="0.959999978542328" colour="4294967295" rotation="0"/>
-    <instance objName="obj_msg2" x="224" y="736" name="inst_C11D173E" locked="0" code="" scaleX="0.959999978542328" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bishop" x="512" y="480" name="inst_3AF436F8" locked="0" code="" scaleX="1.51181101799011" scaleY="1.5039370059967" colour="4294967295" rotation="0"/>
+    <instance objName="obj_options" x="544" y="0" name="inst_49EED20D" locked="0" code="" scaleX="1.27999997138977" scaleY="0.959999978542328" colour="4294967295" rotation="0"/>
+    <instance objName="obj_msg2" x="224" y="736" name="inst_D3661828" locked="0" code="" scaleX="0.959999978542328" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bishop" x="737" y="528" name="inst_BC0AA4CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

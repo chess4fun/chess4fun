@@ -21,7 +21,7 @@ with(obj_index){
 if global.puzzles_solved_in_level = 2
 {
 
-obj_index = asset_get_index("obj_pawn");
+obj_index = asset_get_index(global.spr_animation);
 with(obj_index){
 /*if point_distance(x, y, 804, 470) > 5
     {

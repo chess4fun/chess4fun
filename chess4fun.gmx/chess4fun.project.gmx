@@ -579,12 +579,12 @@
     <sprite>sprites\running_pawn</sprite>
     <sprite>sprites\Msg1</sprite>
     <sprite>sprites\spr_msg2</sprite>
+    <sprite>sprites\sprite26</sprite>
     <sprite>sprites\spr_msg3</sprite>
     <sprite>sprites\spr_msg4</sprite>
     <sprite>sprites\spr_congrats</sprite>
     <sprite>sprites\spr_next_level</sprite>
     <sprite>sprites\spr_completed</sprite>
-    <sprite>sprites\sprite26</sprite>
     <sprite>sprites\spr_pawn_jump</sprite>
     <sprite>sprites\spr_queen_jump</sprite>
     <sprite>sprites\spr_bishop_jump</sprite>
@@ -602,6 +602,8 @@
     <background>background\bac_level5</background>
     <background>background\background8</background>
     <background>background\bac_congrats</background>
+    <background>background\bac_correct_leve_three</background>
+    <background>background\bac_front</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path1</path>
