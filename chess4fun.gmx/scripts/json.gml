@@ -19,8 +19,13 @@ for (var i = 0; i < global.totalPieces; i++)
     PIECE = theEntry[? "PIECE"];
     X = theEntry[? "X"];
     Y = theEntry[? "Y"];
-    sprite_index = asset_get_index(PIECE);
-    draw_sprite(sprite_index, 0, X*60, Y*60);    
+    //sprite_index = asset_get_index(PIECE);
+   // draw_sprite(sprite_index, 0, X*60, Y*60);  
+    //if object_exists(obj_white_pawn)=false{
+    obj_index = asset_get_index("obj_"+PIECE);
+         instance_create(X*64, Y*64,obj_index);
+    //}  
+   
 }
 
 
