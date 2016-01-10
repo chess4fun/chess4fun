@@ -21,12 +21,18 @@ for (var i = 0; i < 1; i++)
 
     
        
-    draw_text_ext(550,40,"You are on level "+string(global.my_level), 30, 320);
-    draw_text_ext(550,70,"You are on puzzle "+string(global.my_puzzle), 30, 320);
+    draw_text_ext(550,40,"Level : "+string(global.my_level)+"                         Puzzle : "+string(global.my_puzzle), 30, 320);
+    draw_line(550, 70, 900, 70);
+    //draw_text_ext(550,70,"You are on puzzle "+string(global.my_puzzle), 30, 320);
     draw_text_ext(550,100,"1. "+theEntry[? "OPTION1"]+"#2. "+theEntry[? "OPTION2"]+"#3. "+theEntry[? "OPTION3"]+"#4. "+theEntry[? "OPTION4"]+"#", 30, 460);
 
         global.correct_answer = theEntry[? "ANSWER"];  
-    if global.answer = false {draw_text_ext(550,200,'That is not correct, please try again', 30, 320); } 
+    if global.answer = false 
+    {
+        draw_set_color(c_red);
+        draw_line(550, 420, 900, 420);
+        draw_text_ext(550,430,'That is not correct, please try again', 30, 460); 
+    } 
 }
 
 
