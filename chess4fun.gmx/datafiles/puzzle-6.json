@@ -6,6 +6,7 @@
       "OPTION2": "1.bb4, 2.qe3,bc5, 3.qg3,ke8, 4.ne7,qh6",
       "OPTION3": "1.bb4, 2.ba4,qg5, 3.h3,bh5, 4.d3,bxc1",
       "OPTION4": "1.bf3, 2.ne3,bxe3, 3.g3,qxg3, 4.hxg3,rh1#",
-      "ANSWER": 4
+      "ANSWER": 4,
+	  "MOVE": "White"
    }
 ]

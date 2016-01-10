@@ -6,7 +6,8 @@
 		"OPTION2":"1.rxf7,rxf7,2.bxf7,kxf7,3.qxh7,kf6,4.rf1",
 		"OPTION3":"1.bxf7,rxf7,2.rxf7,kxf7,3.qg7,ke6,4.d5",
 		"OPTION4":"1.qxf8,kxf8,2.rxf7,kg8,3.rg7,kh8,4.rg8",
-		"ANSWER":4
+		"ANSWER":4,
+	  "MOVE": "White"
 	}
 ]
 

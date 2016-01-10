@@ -6,6 +6,7 @@
       "OPTION2": "1.G7+,Ke7,2. Qe5+,Kf7,Gxh8=N!#",
       "OPTION3": "G7+,Ke7,Gxh8=Q!,Nf6,Qxf6",
       "OPTION4": "Nc3...",
-      "ANSWER": 2
+      "ANSWER": 2,
+	  "MOVE": "White"
    }
 ]

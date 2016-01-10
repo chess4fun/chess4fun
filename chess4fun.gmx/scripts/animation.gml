@@ -1,4 +1,4 @@
-//draw_sprite(spr_pawn, 0, 500, 300);
+    //draw_sprite(spr_pawn, 0, 500, 300);
 
 
 //var newX = obj_index.x + 96;
@@ -14,8 +14,8 @@ with(obj_index){
     move_towards_point(804, 470, 5);
     }
  else speed = 0;*/
- x = 804;
- y = 470;
+ x = 783;
+ y = 463;
 }
 }
 if global.puzzles_solved_in_level = 2
@@ -28,8 +28,8 @@ with(obj_index){
     move_towards_point(804, 470, 5);
     }
  else speed = 0;*/
- x = 903;
- y = 406;
+ x = 884;
+ y = 395;
 }
 
 }

@@ -6,6 +6,7 @@
 	  "OPTION2": "1. Nf7, Kxf7, 2, Qf3+",
 	  "OPTION3": "1.Qb3+. d5 2. eXd6+, Be6 3. Qxe6+, Kf8,4.Qf7#",
 	  "OPTION4": "1. Qf3, nxh1 2. Qf7#",
-	  "ANSWER": 3
+	  "ANSWER": 3,
+	  "MOVE": "White"
    }
 ]

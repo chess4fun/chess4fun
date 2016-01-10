@@ -6,6 +6,7 @@
       "OPTION2": "Be6+,Kxe6,Qe8+,Ne7,D5#",
       "OPTION3": "Qg4+,Ke8,Bb5,Kf8,Qf3+",
       "OPTION4": "Qh3+, Ke8",
-      "ANSWER": 2
+      "ANSWER": 2,
+	  "MOVE": "White"
    }
 ]

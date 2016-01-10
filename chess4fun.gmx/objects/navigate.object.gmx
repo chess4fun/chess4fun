@@ -61,7 +61,9 @@ global.spr_animation = "obj_pawn";
 global.score = 0;
 global.answer = true;
 //global.proceed = true;
-room_goto(level1); 
+//room_goto(level1);
+enter1 = false; 
+room_goto(help);
 }
 </string>
           </argument>
@@ -85,7 +87,7 @@ room_goto(level1);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check(vk_anykey)
+            <string>if keyboard_check(vk_enter)
 {
 if enter=false {enter=true; exit;}
 if enter=true {enter=false; exit;}

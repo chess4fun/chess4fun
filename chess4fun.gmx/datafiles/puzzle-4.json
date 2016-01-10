@@ -6,7 +6,7 @@
       "OPTION2": "Nxf7,Kxf7,Qf3+,Kg8,Rh8+",
       "OPTION3": "Qf4,Bxf4,Rxf4,Qh6,Rf3",
       "OPTION4": "Nxf7,Rxf7,Qh5,G6,Qh8#",
-
-      "ANSWER":4
+      "ANSWER":4,
+	  "MOVE": "White"
    }
 ]

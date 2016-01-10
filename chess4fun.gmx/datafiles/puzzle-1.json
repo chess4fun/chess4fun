@@ -2,10 +2,11 @@
    {
       "LEVEL":1,
 	  "PUZZLE": 1,
-	  "OPTION1": "Kd2",
-	  "OPTION2": "Bf3",
-	  "OPTION3": "Pxg4",
-	  "OPTION4": "Kb7+",
-	  "ANSWER": 3
+	  "OPTION1": "Rxe8+",
+	  "OPTION2": "Bg5+",
+	  "OPTION3": "Bxd6\\#",
+	  "OPTION4": "Be5+",
+	  "ANSWER": 3,
+	  "MOVE": "White"
    }
 ]
