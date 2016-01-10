@@ -591,6 +591,7 @@
     <sound>sound\click_piece</sound>
     <sound>sound\snd_bounce</sound>
     <sound>sound\snd_puzzle</sound>
+    <sound>sound\snd_wrong</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_help</sprite>

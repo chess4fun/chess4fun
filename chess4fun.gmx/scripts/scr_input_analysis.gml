@@ -33,7 +33,7 @@ if draw=true
             }
             else
             {
-            
+            audio_play_sound(applause, 10, false);
             if global.puzzles_solved_in_level = 1
             {
 
@@ -60,6 +60,7 @@ if draw=true
     else
     {
         global.score = global.score - 10;
+        audio_play_sound(snd_wrong, 10, false);
         global.answer = false
         draw = false;
     }
