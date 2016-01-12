@@ -1,0 +1,12 @@
+[
+   {
+      "LEVEL": 3,
+      "PUZZLE": 7,
+      "OPTION1": "1.Rh7,Nf6 2.Rh8+,Kxh8 3. Qh5+",
+      "OPTION2": "1. Nxf7,Kxf7 2. Qf3+,Kg8 3. Rh8+",
+      "OPTION3": "1. Rh8+,Kxh8 2. Qh5+,Kg8 3. Qh7+",
+      "OPTION4": "1. Qh5, G6 2. Qh6, Re8 3.Qh8+",
+      "ANSWER": 3,
+	  "MOVE": "White"
+   }
+]

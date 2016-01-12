@@ -1,0 +1,12 @@
+[
+   {
+      "LEVEL": 2,
+      "PUZZLE": 6,
+      "OPTION1": "1. Nf7+, K7h 2. Qxh6+",
+      "OPTION2": "1.Be5, 6D, 2. Bxg7+",
+      "OPTION3": "1. Qf7, Rf8 2. Qxg7+",
+      "OPTION4": "1.Qxh6+, Gxh6, 2. Be5+",
+      "ANSWER": 4,
+	  "MOVE": "White"
+   }
+]

@@ -1,0 +1,12 @@
+	[
+   {
+      "LEVEL":4,
+	  "PUZZLE": 10,
+	  "OPTION1": "1. Nd5,C6 2. Nc7,Nxc7 3. Bc4,Bg5 4. Qg7+ #",
+	  "OPTION2": "1. Qxg6,Fxg 2. Rxf8,Kxf8 3. Bg7+,Kxg7 4. Bxf7 #",
+	  "OPTION3": "1. Qxf8+,Kxf8 2. Rxf7+,Kg8 3. Rg7+,Any 4. Rg8+ #",
+	  "OPTION4": "1. Rxf7,Rxf7 2. Bxf7+,Kxf7 3. Nd5,Bd6 4. Nxc7",
+	  "ANSWER": 3,
+	  "MOVE": "White"
+   }
+]
