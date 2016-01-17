@@ -47,7 +47,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>    selection=2;
+    draw=true;
     scr_input_analysis();
 </string>
           </argument>
