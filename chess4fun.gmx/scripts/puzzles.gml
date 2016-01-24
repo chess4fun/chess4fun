@@ -51,6 +51,15 @@ for (var i = 0; i < 1; i++)
         draw_set_color(c_red);
         draw_line(left_x, 440, 900, 440);
         draw_text_ext(left_x,450,'That is not correct, please try again', 30, 350); 
+    }
+    else
+    {
+        if global.puzzles_solved_in_level > 0
+        {
+            draw_set_color(c_black);
+            draw_line(left_x, 440, 900, 440);
+            draw_text_ext(left_x,450,'Excellent, Now try this Puzzle', 30, 350); 
+         }
     } 
 }
 

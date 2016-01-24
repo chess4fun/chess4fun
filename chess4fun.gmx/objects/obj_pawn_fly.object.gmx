@@ -275,7 +275,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_knight_fly">
+    <event eventtype="4" ename="obj_fly_2">
       <action>
         <libid>1</libid>
         <id>115</id>
@@ -448,7 +448,7 @@
         <exetype>1</exetype>
         <functionname>action_move</functionname>
         <codestring></codestring>
-        <whoName>obj_knight_fly</whoName>
+        <whoName>obj_fly_2</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>

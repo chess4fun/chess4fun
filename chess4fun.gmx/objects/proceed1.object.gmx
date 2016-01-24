@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>enter2 = false;
+            <string>enter3 = false;
 </string>
           </argument>
         </arguments>
@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if enter2 = true
+            <string>if enter3 = true
 {
 //globalvar level;
 //globalvar puzzle;
@@ -59,7 +59,7 @@
 //global.puzzles_solved_in_level = 0;
 //global.spr_animation = "spr_pawn";
 global.test = true;
-global.score +=10;
+
 room_goto(asset_get_index('level'+string(global.my_level)));
 }
 </string>
@@ -84,10 +84,10 @@ room_goto(asset_get_index('level'+string(global.my_level)));
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check(vk_space)
+            <string>if keyboard_check_pressed(vk_space)
 {
-if enter2=false {enter2=true; exit;}
-if enter2=true {enter2=false; exit;}
+if enter3=false {enter3=true; exit;}
+if enter3=true {enter3=false; exit;}
 }
 
 if mouse_y &gt; 32 {global.menu = false}

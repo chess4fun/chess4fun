@@ -29,7 +29,7 @@ if draw=true
             global.puzzles_solved_in_level =0;
  
             enter1 = false;
-            room_to_go = "next_level_"+string(global.my_level);
+            room_to_go = "interim";
             //room_to_go = "next_level_2"
             room_goto(asset_get_index(room_to_go));
             }

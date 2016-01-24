@@ -650,6 +650,7 @@
     <sprite>sprites\spr_knight_fly</sprite>
     <sprite>sprites\spr_rook_jump</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_pawn_rocket</sprite>
     <sprite>sprites\spr_knight_rocket</sprite>
     <sprite>sprites\spr_bishop_rocket</sprite>
@@ -671,6 +672,19 @@
     <sprite>sprites\spr_help_menu</sprite>
     <sprite>sprites\spr_high_score</sprite>
     <sprite>sprites\spr_high_score_title</sprite>
+    <sprite>sprites\sp_game_over</sprite>
+    <sprite>sprites\spr_finish</sprite>
+    <sprite>sprites\sprite62</sprite>
+    <sprite>sprites\sprite63</sprite>
+    <sprite>sprites\spr_question</sprite>
+    <sprite>sprites\spr_yes</sprite>
+    <sprite>sprites\spr_no</sprite>
+    <sprite>sprites\spr_fun_game_help</sprite>
+    <sprite>sprites\spr_fun_game_intro</sprite>
+    <sprite>sprites\spr_intro</sprite>
+    <sprite>sprites\spr_chess4fun</sprite>
+    <sprite>sprites\spr_puzzles_menu</sprite>
+    <sprite>sprites\spr_fun_game_menu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -727,15 +741,17 @@
     <object>objects\navigate</object>
     <object>objects\navigate1</object>
     <object>objects\proceed1</object>
+    <object>objects\proceed2</object>
     <object>objects\fialize</object>
     <object>objects\obj_camel</object>
     <object>objects\obj_pawn</object>
     <object>objects\obj_pawn_fly</object>
+    <object>objects\obj_fly_2</object>
+    <object>objects\obj_fly_5</object>
+    <object>objects\obj_fly_4</object>
+    <object>objects\obj_fly_3</object>
     <object>objects\obj_knight_fly</object>
-    <object>objects\obj_queen_fly</object>
     <object>objects\obj_knight</object>
-    <object>objects\obj_rook_fly</object>
-    <object>objects\obj_bishop_fly</object>
     <object>objects\obj_rook</object>
     <object>objects\obj_queen</object>
     <object>objects\obj_bishop</object>
@@ -747,10 +763,10 @@
     <object>objects\obj_msg4</object>
     <object>objects\congrats</object>
     <object>objects\object14</object>
-    <object>objects\obj_goto_knight_level</object>
-    <object>objects\obj_goto_rook_level</object>
-    <object>objects\obj_goto_queen_level</object>
-    <object>objects\obj_goto_bishop_level</object>
+    <object>objects\obj_goto_level_2</object>
+    <object>objects\obj_goto_level_4</object>
+    <object>objects\obj_goto_level_5</object>
+    <object>objects\obj_goto_level_3</object>
     <object>objects\obj_white_king</object>
     <object>objects\obj_white_queen</object>
     <object>objects\obj_white_rook</object>
@@ -764,6 +780,7 @@
     <object>objects\obj_black_knight</object>
     <object>objects\obj_black_pawn</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_door</object>
     <object>objects\obj_help</object>
     <object>objects\obj_logo</object>
     <object>objects\obj_steps</object>
@@ -779,6 +796,17 @@
     <object>objects\obj_cert_display</object>
     <object>objects\obj_draw_highScore</object>
     <object>objects\obj_high_scores_title</object>
+    <object>objects\obj_game_over</object>
+    <object>objects\obj_timer</object>
+    <object>objects\obj_question</object>
+    <object>objects\obj_yes</object>
+    <object>objects\obj_no</object>
+    <object>objects\obj_fun_game_help</object>
+    <object>objects\obj_fun_game_intro</object>
+    <object>objects\obj_intro_menu</object>
+    <object>objects\obj_chess4fun_menu</object>
+    <object>objects\obj_puzzles_menu</object>
+    <object>objects\obj_fun_game_menu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room3</room>
@@ -792,6 +820,9 @@
     <room>rooms\next_level_4</room>
     <room>rooms\next_level_3</room>
     <room>rooms\level4</room>
+    <room>rooms\fun_game</room>
+    <room>rooms\fun_game_help</room>
+    <room>rooms\interim</room>
     <room>rooms\level5</room>
     <room>rooms\certificate</room>
     <room>rooms\high_score</room>
