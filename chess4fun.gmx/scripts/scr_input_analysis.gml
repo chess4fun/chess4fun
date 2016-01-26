@@ -5,8 +5,19 @@ if draw=true
     if selection=global.correct_answer
 
     {
-        global.score +=10;
-        //draw_text(550,160,'You have selected correct option'); 
+        switch (global.attempt)
+        {
+            case 0:
+               global.score +=10;
+               break 
+            case 1:
+               global.score +=5;
+               break 
+            case 2:
+               global.score +=2;
+               break 
+        }
+
         if global.max_puzzles=global.my_puzzle
         {
             draw_text(550,180,'Congratulations you have solved all puzzles');
@@ -58,10 +69,12 @@ if draw=true
         }
         draw = false;
         global.answer = true
+        global.attempt = 0;
     }
     else
     {
-        global.score = global.score - 10;
+        //global.score = global.score - 10;
+        global.attempt = global.attempt+1
         audio_play_sound(snd_wrong, 10, false);
         global.answer = false
         draw = false;

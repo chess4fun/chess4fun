@@ -59,8 +59,14 @@
 //global.puzzles_solved_in_level = 0;
 //global.spr_animation = "spr_pawn";
 global.test = true;
-
-room_goto(asset_get_index('level'+string(global.my_level)));
+if global.max_puzzles=global.my_puzzle
+{
+    room_goto(asset_get_index('final'));
+}
+else
+{
+    room_goto(asset_get_index('level'+string(global.my_level)));
+}
 }
 </string>
           </argument>

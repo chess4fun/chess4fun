@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -84,6 +84,7 @@ global.puzzles_solved_in_level = 0;
 global.spr_animation = "obj_pawn";
 global.score = 0;
 global.answer = true;
+global.attempt = 0;
 //global.proceed = true;
 //room_goto(level1);
 enter1 = false; 
