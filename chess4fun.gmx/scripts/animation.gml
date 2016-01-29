@@ -14,8 +14,11 @@ with(obj_index){
     move_towards_point(804, 470, 5);
     }
  else speed = 0;*/
- x = 783;
- y = 463;
+ //x = 783;
+ //y = 463;
+ x = 787;
+ y = 458;
+
 }
 }
 if global.puzzles_solved_in_level = 2
@@ -30,6 +33,8 @@ with(obj_index){
  else speed = 0;*/
  x = 884;
  y = 395;
+  x = 892;
+ y = 392;
 }
 
 }

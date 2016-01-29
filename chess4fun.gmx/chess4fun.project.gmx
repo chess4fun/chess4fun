@@ -685,6 +685,16 @@
     <sprite>sprites\spr_chess4fun</sprite>
     <sprite>sprites\spr_puzzles_menu</sprite>
     <sprite>sprites\spr_fun_game_menu</sprite>
+    <sprite>sprites\spr_pawn_jump_new</sprite>
+    <sprite>sprites\spr_bishop_jump_new</sprite>
+    <sprite>sprites\spr_knight_jump_new</sprite>
+    <sprite>sprites\spr_rook_jump_new</sprite>
+    <sprite>sprites\spr_queen_jump_new</sprite>
+    <sprite>sprites\spr_pawn_rocket_new</sprite>
+    <sprite>sprites\spr_knight_rocket_new</sprite>
+    <sprite>sprites\spr_bishop_rocket_new</sprite>
+    <sprite>sprites\spr_rook_rocket_new</sprite>
+    <sprite>sprites\spr_queen_rocket_new</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
