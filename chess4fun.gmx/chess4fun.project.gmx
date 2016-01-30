@@ -695,6 +695,7 @@
     <sprite>sprites\spr_bishop_rocket_new</sprite>
     <sprite>sprites\spr_rook_rocket_new</sprite>
     <sprite>sprites\spr_queen_rocket_new</sprite>
+    <sprite>sprites\sprite83</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
