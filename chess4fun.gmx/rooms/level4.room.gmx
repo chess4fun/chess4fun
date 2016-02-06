@@ -54,7 +54,6 @@
     <instance objName="object3" x="0" y="0" name="inst_76181695" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="input" x="544" y="0" name="inst_38354473" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_msg2" x="224" y="736" name="inst_EEFDC958" locked="0" code="" scaleX="0.959999978542328" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rook" x="690" y="522" name="inst_57AE9257" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_logo" x="7" y="651" name="inst_BAD1E518" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_opt1" x="534" y="149" name="inst_C29C7F01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_opt2" x="534" y="226" name="inst_A58CA2E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

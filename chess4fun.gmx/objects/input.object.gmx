@@ -109,7 +109,7 @@ selection=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_input_analysis();
+            <string>scr_input_analysis_new();
 
 </string>
           </argument>

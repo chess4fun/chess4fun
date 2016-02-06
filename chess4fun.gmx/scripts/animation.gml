@@ -1,40 +1,16 @@
-    //draw_sprite(spr_pawn, 0, 500, 300);
 
-
-//var newX = obj_index.x + 96;
-//var newY = obj_index.y - 65;
+obj_index = asset_get_index("obj_piece_jump"+string(global.my_level));
+if global.puzzles_solved_in_level = 0
+{
+    instance_create(690, 522,obj_index);
+}
 
 if global.puzzles_solved_in_level = 1
 {
-
-obj_index = asset_get_index(global.spr_animation);
-with(obj_index){
-/*if point_distance(x, y, 804, 470) > 5
-    {
-    move_towards_point(804, 470, 5);
-    }
- else speed = 0;*/
- //x = 783;
- //y = 463;
- x = 787;
- y = 458;
-
+    instance_create(787, 458,obj_index);
 }
-}
+
 if global.puzzles_solved_in_level = 2
 {
-
-obj_index = asset_get_index(global.spr_animation);
-with(obj_index){
-/*if point_distance(x, y, 804, 470) > 5
-    {
-    move_towards_point(804, 470, 5);
-    }
- else speed = 0;*/
- x = 884;
- y = 395;
-  x = 892;
- y = 392;
-}
-
+    instance_create(892, 392,obj_index);
 }

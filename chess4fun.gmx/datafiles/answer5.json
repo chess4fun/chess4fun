@@ -1,0 +1,5 @@
+[
+{"X_FROM":3,"Y_FROM":3,"X_TO":6,"Y_TO":0,"MOVE_PIECE":"white_queen","CAPTURE_PIECE":""},
+{"X_FROM":4,"Y_FROM":0,"X_TO":6,"Y_TO":0,"MOVE_PIECE":"black_rook","CAPTURE_PIECE":"white_queen"},
+{"X_FROM":7,"Y_FROM":2,"X_TO":5,"Y_TO":1,"MOVE_PIECE":"white_knight","CAPTURE_PIECE":""}
+]

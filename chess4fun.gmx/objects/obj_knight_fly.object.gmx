@@ -270,7 +270,7 @@
         <exetype>1</exetype>
         <functionname>action_set_alarm</functionname>
         <codestring></codestring>
-        <whoName>obj_pawn</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -318,7 +318,7 @@
         <exetype>1</exetype>
         <functionname>action_set_motion</functionname>
         <codestring></codestring>
-        <whoName>obj_pawn</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>

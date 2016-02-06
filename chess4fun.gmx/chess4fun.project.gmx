@@ -3,7 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="47" name="datafiles">
+  <datafiles number="62" name="datafiles">
     <datafile>
       <name>pos1.json</name>
       <exists>-1</exists>
@@ -599,6 +599,261 @@
       </ConfigOptions>
       <filename>save.ini</filename>
     </datafile>
+    <datafile>
+      <name>answer1.json</name>
+      <exists>-1</exists>
+      <size>100</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer1.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer2.json</name>
+      <exists>-1</exists>
+      <size>90</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer2.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer3.json</name>
+      <exists>-1</exists>
+      <size>90</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer3.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer4.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer4.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer5.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer5.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer6.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer6.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer7.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer7.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer8.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer8.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer9.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer9.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer10.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer10.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer11.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer11.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer12.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer12.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer13.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer13.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer14.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer14.json</filename>
+    </datafile>
+    <datafile>
+      <name>answer15.json</name>
+      <exists>-1</exists>
+      <size>292</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>answer15.json</filename>
+    </datafile>
   </datafiles>
   <NewExtensions/>
   <sounds name="sound">
@@ -696,6 +951,10 @@
     <sprite>sprites\spr_rook_rocket_new</sprite>
     <sprite>sprites\spr_queen_rocket_new</sprite>
     <sprite>sprites\sprite83</sprite>
+    <sprite>sprites\spr_forward</sprite>
+    <sprite>sprites\spr_reverse</sprite>
+    <sprite>sprites\spr_next</sprite>
+    <sprite>sprites\spr_instr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -732,16 +991,20 @@
     <script>scripts\puzzles.gml</script>
     <script>scripts\draw_help.gml</script>
     <script>scripts\scr_input_analysis.gml</script>
+    <script>scripts\scr_input_analysis_new.gml</script>
+    <script>scripts\scr_next_puzzle.gml</script>
     <script>scripts\save_high_scores.gml</script>
     <script>scripts\animation.gml</script>
     <script>scripts\set_piece.gml</script>
     <script>scripts\read_high_scores.gml</script>
+    <script>scripts\move.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
     <font>fonts\font1</font>
     <font>fonts\font2</font>
     <font>fonts\font3</font>
+    <font>fonts\font4</font>
   </fonts>
   <objects name="objects">
     <object>objects\objectBlack</object>
@@ -755,17 +1018,17 @@
     <object>objects\proceed2</object>
     <object>objects\fialize</object>
     <object>objects\obj_camel</object>
-    <object>objects\obj_pawn</object>
+    <object>objects\obj_piece_jump1</object>
     <object>objects\obj_pawn_fly</object>
     <object>objects\obj_fly_2</object>
     <object>objects\obj_fly_5</object>
     <object>objects\obj_fly_4</object>
     <object>objects\obj_fly_3</object>
     <object>objects\obj_knight_fly</object>
-    <object>objects\obj_knight</object>
-    <object>objects\obj_rook</object>
-    <object>objects\obj_queen</object>
-    <object>objects\obj_bishop</object>
+    <object>objects\obj_piece_jump2</object>
+    <object>objects\obj_piece_jump4</object>
+    <object>objects\obj_piece_jump5</object>
+    <object>objects\obj_piece_jump3</object>
     <object>objects\obj_horse</object>
     <object>objects\obj_Msg1</object>
     <object>objects\obj_options</object>
@@ -798,6 +1061,7 @@
     <object>objects\obj_puz_bak</object>
     <object>objects\obj_opt1</object>
     <object>objects\obj_opt2</object>
+    <object>objects\obj_fun_game_help</object>
     <object>objects\obj_opt3</object>
     <object>objects\obj_opt4</object>
     <object>objects\obj_menu</object>
@@ -812,12 +1076,15 @@
     <object>objects\obj_question</object>
     <object>objects\obj_yes</object>
     <object>objects\obj_no</object>
-    <object>objects\obj_fun_game_help</object>
     <object>objects\obj_fun_game_intro</object>
     <object>objects\obj_intro_menu</object>
     <object>objects\obj_chess4fun_menu</object>
     <object>objects\obj_puzzles_menu</object>
     <object>objects\obj_fun_game_menu</object>
+    <object>objects\obj_forward</object>
+    <object>objects\obj_reverse</object>
+    <object>objects\obj_next</object>
+    <object>objects\obj_instr</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room3</room>
@@ -829,9 +1096,9 @@
     <room>rooms\next_level_2</room>
     <room>rooms\next_level_5</room>
     <room>rooms\next_level_4</room>
+    <room>rooms\fun_game</room>
     <room>rooms\next_level_3</room>
     <room>rooms\level4</room>
-    <room>rooms\fun_game</room>
     <room>rooms\fun_game_help</room>
     <room>rooms\interim</room>
     <room>rooms\level5</room>

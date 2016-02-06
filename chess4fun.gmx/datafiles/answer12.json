@@ -1,0 +1,9 @@
+[
+{"X_FROM":4,"Y_FROM":4,"X_TO":5,"Y_TO":2,"MOVE_PIECE":"white_knight","CAPTURE_PIECE":""},
+{"X_FROM":6,"Y_FROM":0,"X_TO":7,"Y_TO":0,"MOVE_PIECE":"black_king","CAPTURE_PIECE":""},
+{"X_FROM":4,"Y_FROM":3,"X_TO":5,"Y_TO":1,"MOVE_PIECE":"white_knight","CAPTURE_PIECE":"black_pawn"},
+{"X_FROM":5,"Y_FROM":0,"X_TO":5,"Y_TO":1,"MOVE_PIECE":"black_rook","CAPTURE_PIECE":"white_knight"},
+{"X_FROM":3,"Y_FROM":5,"X_TO":3,"Y_TO":0,"MOVE_PIECE":"white_rook","CAPTURE_PIECE":""},
+{"X_FROM":5,"Y_FROM":1,"X_TO":5,"Y_TO":0,"MOVE_PIECE":"black_rook","CAPTURE_PIECE":""},
+{"X_FROM":3,"Y_FROM":0,"X_TO":5,"Y_TO":0,"MOVE_PIECE":"white_rook","CAPTURE_PIECE":"black_rook"},
+]

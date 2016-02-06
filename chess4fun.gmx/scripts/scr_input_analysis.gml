@@ -47,22 +47,12 @@ if draw=true
             else
             {
             audio_play_sound(applause, 10, false);
-            if global.puzzles_solved_in_level = 1
-            {
 
-                obj_index = asset_get_index("obj_pawn");
-                with(obj_index){
-                    if point_distance(x, y, 804, 470) > 5
-                    {
-                    move_towards_point(804, 470, 5);
-                    }
-                    else speed = 0;
-                    //x = 804;
-                    //y = 470;
-                }
-            }
-            
-                 room_goto(asset_get_index('level'+string(global.my_level)));
+            //if (show_move != 1) {
+            //move(5,4,3,2,"obj_white_bishop","obj_black_pawn");
+            //shove_move = 1
+            //            }
+                // room_goto(asset_get_index('level'+string(global.my_level)));
             }
             //room_goto(asset_get_index('level'+string(global.my_level)));
             //room_goto('level'+string(global.my_level));

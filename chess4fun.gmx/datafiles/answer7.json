@@ -1,0 +1,7 @@
+[
+{"X_FROM":7,"Y_FROM":7,"X_TO":7,"Y_TO":0,"MOVE_PIECE":"white_rook","CAPTURE_PIECE":""},
+{"X_FROM":6,"Y_FROM":0,"X_TO":7,"Y_TO":0,"MOVE_PIECE":"black_king","CAPTURE_PIECE":"white_rook"},
+{"X_FROM":3,"Y_FROM":7,"X_TO":7,"Y_TO":3,"MOVE_PIECE":"white_queen","CAPTURE_PIECE":""},
+{"X_FROM":7,"Y_FROM":0,"X_TO":6,"Y_TO":0,"MOVE_PIECE":"black_king","CAPTURE_PIECE":""},
+{"X_FROM":7,"Y_FROM":3,"X_TO":7,"Y_TO":1,"MOVE_PIECE":"white_queen","CAPTURE_PIECE":""}
+]

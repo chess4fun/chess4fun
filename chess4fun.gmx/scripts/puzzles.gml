@@ -50,7 +50,7 @@ for (var i = 0; i < 1; i++)
     {
         draw_set_color(c_red);
         draw_line(left_x, 440, 900, 440);
-        draw_text_ext(left_x,450,'That is not correct, please try again', 30, 350); 
+        //draw_text_ext(left_x,450,'That is not correct, please try again', 30, 350); 
     }
     else
     {
@@ -58,9 +58,14 @@ for (var i = 0; i < 1; i++)
         {
             draw_set_color(c_black);
             draw_line(left_x, 440, 900, 440);
-            draw_text_ext(left_x,450,'Excellent, Now try this Puzzle', 30, 350); 
+            //draw_text_ext(left_x,450,'Excellent, Now try this Puzzle', 30, 350); 
          }
     } 
+    draw_set_font(font4);
+    draw_text_ext(160,570,"Instructions:", 30, 550); 
+    draw_line(160, 605, 670, 605);
+    draw_set_font(font0);
+    draw_text_ext(160,620,global.message_text, 30, 550); 
 }
 
 

@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>drsw = true
+            <string>draw = true
+
+
 </string>
           </argument>
         </arguments>
@@ -80,6 +82,31 @@ if draw=true {draw=false; exit;}
 }
 */
 if mouse_y &gt; 32 {global.menu = false}
+if (global.piece_move == true) {
+      //obj_move1 = asset_get_index(global.obj_move);
+      //inst_move = instance_nearest(global.x_from*64, global.y_from*64, obj_move1);
+      with(global.inst_move){
+          dist = point_distance(x, y, global.x_to*64, global.y_to*64);
+          if (dist &gt; 0) {
+            move_towards_point(global.x_to*64, global.y_to*64, min(10,dist));
+          } else
+          {
+            x = global.x_to*64;
+            y = global.y_to*64;
+            speed = 0;
+            global.piece_move = false;   
+            
+            if (global.obj_remove != "obj_") {      
+                obj_remove = asset_get_index(global.obj_remove);
+                inst_remove = instance_nearest(global.x_to*64, global.y_to*64, obj_remove);
+                with(inst_remove) instance_destroy();
+            }
+            
+                 
+          }
+          //if (x == x_to*64 and y == y_to*64) {speed = 0;}
+      }
+}
 </string>
           </argument>
         </arguments>
@@ -215,6 +242,86 @@ puzzles(global.my_puzzle);
           <argument>
             <kind>1</kind>
             <string>room_goto(help);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="39">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>var max_move = 2*global.my_level-1;
+
+if (global.review == true and global.current_move != max_move)
+{
+move(global.current_move,"forward");
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="37">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.review == true and global.current_move != 0)
+{
+    move(global.current_move-1,"reverse");
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="32">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.review == true)
+{
+    scr_next_puzzle();
+}
 </string>
           </argument>
         </arguments>

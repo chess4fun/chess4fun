@@ -65,7 +65,8 @@ if global.max_puzzles=global.my_puzzle
 }
 else
 {
-    room_goto(asset_get_index('level'+string(global.my_level)));
+  room_goto(asset_get_index('level1'));
+    //room_goto(asset_get_index('level'+string(global.my_level)));
 }
 }
 </string>
