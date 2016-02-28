@@ -2,11 +2,11 @@
    {
       "LEVEL":3,
 	  "PUZZLE": 8,
-	  "OPTION1": "1. G7+,Ke7 2. Qe5+,Kf7 3. Bc4+",
-	  "OPTION2": "1. G7+,Ke7 2. Qe5+,Kf7 3. Gxh8=N!+",
-	  "OPTION3": "1. Qe5+,Be7 2. Qxe7,Qxe7 3. G7",
-	  "OPTION4": "1. Nc3,D5 2. Bb5+,Ke7 3. Qh4+",
+	  "OPTION1": "1. ...,Ke3+ 2. Kh1,Bxd2 3. Bxd2,Nf4",
+	  "OPTION2": "1. ...,Ne2+ 2. Kh1,Qxh2+ 3. Kxh2,Rh5",
+	  "OPTION3": "1. ...,Re5 2. Qxh7,Rxe3 3. Pxe3,Bxd2",
+	  "OPTION4": "1. ...,Bb4 2. Qxd4,Qxd4 3. Bxd4,Bxd2",
 	  "ANSWER": 2,
-	  "MOVE": "White"
+	  "MOVE": "Black"
    }
 ]

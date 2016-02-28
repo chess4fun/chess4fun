@@ -865,6 +865,8 @@
     <sound>sound\snd_puzzle</sound>
     <sound>sound\snd_wrong</sound>
     <sound>sound\snd_start</sound>
+    <sound>sound\intro_ananya</sound>
+    <sound>sound\game_over</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_help</sprite>
@@ -955,6 +957,17 @@
     <sprite>sprites\spr_reverse</sprite>
     <sprite>sprites\spr_next</sprite>
     <sprite>sprites\spr_instr</sprite>
+    <sprite>sprites\spr_ananya_talk</sprite>
+    <sprite>sprites\spr_inv_wall</sprite>
+    <sprite>sprites\spr_piece01</sprite>
+    <sprite>sprites\spr_piece02</sprite>
+    <sprite>sprites\sprite92</sprite>
+    <sprite>sprites\sprite93</sprite>
+    <sprite>sprites\spr_space_piece_01</sprite>
+    <sprite>sprites\spr_space_piece_02</sprite>
+    <sprite>sprites\spr_space_piece_03</sprite>
+    <sprite>sprites\spr_space_piece_04</sprite>
+    <sprite>sprites\spr_space_piece_05</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -982,6 +995,7 @@
     <background>background\new_overall</background>
     <background>background\bak_steps</background>
     <background>background\bak_cert</background>
+    <background>background\space_stn</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path1</path>
@@ -1015,6 +1029,7 @@
     <object>objects\navigate</object>
     <object>objects\navigate1</object>
     <object>objects\proceed1</object>
+    <object>objects\proceed3</object>
     <object>objects\proceed2</object>
     <object>objects\fialize</object>
     <object>objects\obj_camel</object>
@@ -1025,6 +1040,11 @@
     <object>objects\obj_fly_4</object>
     <object>objects\obj_fly_3</object>
     <object>objects\obj_knight_fly</object>
+    <object>objects\obj_space_piece_01</object>
+    <object>objects\obj_space_piece_03</object>
+    <object>objects\obj_space_piece_02</object>
+    <object>objects\obj_space_piece_04</object>
+    <object>objects\obj_space_piece_05</object>
     <object>objects\obj_piece_jump2</object>
     <object>objects\obj_piece_jump4</object>
     <object>objects\obj_piece_jump5</object>
@@ -1054,6 +1074,7 @@
     <object>objects\obj_black_knight</object>
     <object>objects\obj_black_pawn</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_invisible_wall</object>
     <object>objects\obj_door</object>
     <object>objects\obj_help</object>
     <object>objects\obj_logo</object>
@@ -1085,6 +1106,7 @@
     <object>objects\obj_reverse</object>
     <object>objects\obj_next</object>
     <object>objects\obj_instr</object>
+    <object>objects\obj_ananya_talk</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room3</room>
@@ -1106,6 +1128,7 @@
     <room>rooms\high_score</room>
     <room>rooms\help</room>
     <room>rooms\room1</room>
+    <room>rooms\spacestation</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

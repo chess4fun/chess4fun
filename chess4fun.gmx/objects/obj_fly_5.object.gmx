@@ -306,9 +306,9 @@ if global.my_timer &gt; 0
 global.score +=10;
 global.my_timer = 0;
 }
-
-obj_index = asset_get_index('obj_game_over');
-obj_index.visible = true;
+room_goto(asset_get_index('spacestation'));
+//obj_index = asset_get_index('obj_game_over');
+//obj_index.visible = true;
 </string>
           </argument>
         </arguments>

@@ -26,31 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>enter=false
+play_intro=true
+//audio_play_sound(snd_start, 9, false);
+
+audio_play_sound(intro_ananya, 10, false);
+
+
+
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>211</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sound</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>6</kind>
-            <sound>snd_start</sound>
-          </argument>
-          <argument>
-            <kind>3</kind>
-            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -122,6 +105,14 @@ if enter=false {enter=true; exit;}
 if enter=true {enter=false; exit;}
 }
 if mouse_y &gt; 32 {global.menu = false}
+if (play_intro == true) {
+
+    if !audio_is_playing(snd_start)
+    {
+        //audio_play_sound(intro_ananya, 10, false);
+    }    
+    play_intro = false;
+}
 </string>
           </argument>
         </arguments>
@@ -158,7 +149,7 @@ if mouse_y &gt; 32 {global.menu = false}
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_start</sound>
+            <sound>intro_ananya</sound>
           </argument>
         </arguments>
       </action>

@@ -11,7 +11,7 @@
   <bbox_right>111</bbox_right>
   <bbox_top>38</bbox_top>
   <bbox_bottom>161</bbox_bottom>
-  <HTile>0</HTile>
+  <HTile>-1</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>

@@ -2,8 +2,10 @@
 {"X_FROM":3,"Y_FROM":4,"X_TO":3,"Y_TO":1,"MOVE_PIECE":"white_queen","CAPTURE_PIECE":""},
 {"X_FROM":4,"Y_FROM":2,"X_TO":3,"Y_TO":1,"MOVE_PIECE":"black_bishop","CAPTURE_PIECE":"white_queen"},
 {"X_FROM":4,"Y_FROM":4,"X_TO":3,"Y_TO":2,"MOVE_PIECE":"white_knight","CAPTURE_PIECE":""},
-{"X_FROM":4,"Y_FROM":0,"X_TO":3,"Y_TO":0,"MOVE_PIECE":"white_king","CAPTURE_PIECE":""},
+{"X_FROM":4,"Y_FROM":0,"X_TO":3,"Y_TO":0,"MOVE_PIECE":"black_king","CAPTURE_PIECE":""},
+{"X_FROM":3,"Y_FROM":2,"X_TO":5,"Y_TO":1,"MOVE_PIECE":"white_knight","CAPTURE_PIECE":""},
+{"X_FROM":3,"Y_FROM":0,"X_TO":2,"Y_TO":0,"MOVE_PIECE":"black_king","CAPTURE_PIECE":""},
+{"X_FROM":4,"Y_FROM":7,"X_TO":4,"Y_TO":0,"MOVE_PIECE":"white_rook","CAPTURE_PIECE":""},
+{"X_FROM":3,"Y_FROM":1,"X_TO":4,"Y_TO":0,"MOVE_PIECE":"black_bishop","CAPTURE_PIECE":"white_rook"},
+{"X_FROM":3,"Y_FROM":7,"X_TO":3,"Y_TO":0,"MOVE_PIECE":"white_rook","CAPTURE_PIECE":""}
 ]
-
-
-1. Qd7+,Bxd7 2. Nd6+,Kd8 3. Re8+,Bxe8 5. Rd8
