@@ -46,8 +46,8 @@ if draw=true
             }
             else
             {
-            audio_play_sound(applause, 10, false);
-
+            //audio_play_sound(applause, 10, false);
+            audio_play_sound('sound_right'+string(global.puzzles_solved_in_level), 10, false);
             //if (show_move != 1) {
             //move(5,4,3,2,"obj_white_bishop","obj_black_pawn");
             //shove_move = 1

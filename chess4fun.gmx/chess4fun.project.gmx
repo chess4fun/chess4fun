@@ -867,6 +867,9 @@
     <sound>sound\snd_start</sound>
     <sound>sound\intro_ananya</sound>
     <sound>sound\game_over</sound>
+    <sound>sound\sound_right1</sound>
+    <sound>sound\sound_right2</sound>
+    <sound>sound\sound_right3</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_help</sprite>

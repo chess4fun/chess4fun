@@ -27,7 +27,8 @@
             }
             else
             {
-              audio_play_sound(applause, 10, false);
+              //audio_play_sound(applause, 10, false);
+              //audio_play_sound('sound_right'+string(global.puzzles_solved_in_level), 10, false);
               global.review = false;
               room_goto(asset_get_index('level1'));
               //room_goto(asset_get_index('level'+string(global.my_level)));

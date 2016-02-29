@@ -19,7 +19,8 @@ if draw=true
         }
 
         global.review = true
-        audio_play_sound(applause, 10, false);
+        //audio_play_sound(applause, 10, false);
+        audio_play_sound(asset_get_index('sound_right'+string(global.puzzles_solved_in_level+1)), 10, false);
         draw = false;
         global.answer = true;
         global.attempt = 0;
@@ -33,7 +34,7 @@ if draw=true
         audio_play_sound(snd_wrong, 10, false);
         global.answer = false
         draw = false;
-        global.message_text = "That is npt correct, please try again";
+        global.message_text = "That is not correct, please try again";
     }
 }
 
