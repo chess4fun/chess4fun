@@ -51,7 +51,7 @@ selection=0
             <kind>1</kind>
             <string>    selection=1;
     draw=true;
-    scr_input_analysis();
+    scr_input_analysis_new();
 </string>
           </argument>
         </arguments>

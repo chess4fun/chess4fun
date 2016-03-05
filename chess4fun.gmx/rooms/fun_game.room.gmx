@@ -11,8 +11,7 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>enter1 = false;
-obj_index = asset_get_index('obj_game_over');
-obj_index.visible = false;
+
 obj_index = asset_get_index('obj_fly_'+string(global.my_level));
 instance_create(  128,  160,  obj_index  ) ;</code>
   <enableViews>0</enableViews>
@@ -218,9 +217,9 @@ instance_create(  128,  160,  obj_index  ) ;</code>
     <instance objName="obj_wall" x="768" y="640" name="inst_B0DBB4B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="768" y="672" name="inst_F600638E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="768" y="704" name="inst_DBAE0C96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_game_over" x="256" y="64" name="inst_5E113CEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_timer" x="32" y="32" name="inst_8784A600" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="proceed3" x="64" y="32" name="inst_574DE857" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="128" y="32" name="inst_D41A62EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

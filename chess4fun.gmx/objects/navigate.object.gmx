@@ -27,7 +27,6 @@
             <kind>1</kind>
             <string>enter=false
 play_intro=true
-//audio_play_sound(snd_start, 9, false);
 
 audio_play_sound(intro_ananya, 10, false);
 
@@ -57,8 +56,6 @@ audio_play_sound(intro_ananya, 10, false);
             <kind>1</kind>
             <string>if enter = true
 {
-//globalvar level;
-//globalvar puzzle;
 global.my_level = 1;
 global.my_puzzle = 1;
 global.max_puzzles = 15;
@@ -71,8 +68,6 @@ global.attempt = 0;
 global.current_move = 0;
 global.piece_move = false;
 global.message_text = "";
-//global.proceed = true;
-//room_goto(level1);
 enter1 = false; 
 read_high_scores();
 room_goto(help);
@@ -102,17 +97,9 @@ room_goto(help);
             <string>if keyboard_check(vk_enter)
 {
 if enter=false {enter=true; exit;}
-if enter=true {enter=false; exit;}
 }
-if mouse_y &gt; 32 {global.menu = false}
-if (play_intro == true) {
+//if mouse_y &gt; 32 {global.menu = false}
 
-    if !audio_is_playing(snd_start)
-    {
-        //audio_play_sound(intro_ananya, 10, false);
-    }    
-    play_intro = false;
-}
 </string>
           </argument>
         </arguments>

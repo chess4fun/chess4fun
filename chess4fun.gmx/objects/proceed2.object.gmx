@@ -50,14 +50,7 @@
             <kind>1</kind>
             <string>if enter2 = true
 {
-//globalvar level;
-//globalvar puzzle;
-//global.my_level = 1;
-//global.my_puzzle = 1;
-//global.max_puzzles = 15;
-//global.puzzles_per_level = 3;
-//global.puzzles_solved_in_level = 0;
-//global.spr_animation = "spr_pawn";
+
 global.test = true;
 
 room_goto(asset_get_index('fun_game'));

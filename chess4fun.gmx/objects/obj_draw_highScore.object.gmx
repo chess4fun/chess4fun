@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>visible = !visible
+            <string>//visible = !visible
 </string>
           </argument>
         </arguments>
@@ -48,10 +48,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.review == true
-{visible = true}
-else
-{visible = false}
+            <string>//if global.review == true
+//{visible = true}
+//else
+//{visible = false}
 </string>
           </argument>
         </arguments>

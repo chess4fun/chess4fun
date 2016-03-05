@@ -74,17 +74,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
-if keyboard_check(vk_anykey)
-{
-if draw=false {draw=true; exit;}
-if draw=true {draw=false; exit;}
-}
-*/
-if mouse_y &gt; 32 {global.menu = false}
+            <string>if mouse_y &gt; 32 {global.menu = false}
 if (global.piece_move == true) {
-      //obj_move1 = asset_get_index(global.obj_move);
-      //inst_move = instance_nearest(global.x_from*64, global.y_from*64, obj_move1);
+
       with(global.inst_move){
           dist = point_distance(x, y, global.x_to*64, global.y_to*64);
           if (dist &gt; 0) {
@@ -186,10 +178,6 @@ if (global.piece_move == true) {
           <argument>
             <kind>1</kind>
             <string>draw=true;
-//json(global.my_puzzle);
-//puzzles(global.my_puzzle);
-
-
 animation();
 </string>
           </argument>

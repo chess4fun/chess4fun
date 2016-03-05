@@ -193,7 +193,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_space_piece_03">
+    <event eventtype="4" ename="obj_invisible_wall">
       <action>
         <libid>1</libid>
         <id>115</id>
@@ -218,28 +218,26 @@
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="4" ename="obj_space_piece_02">
       <action>
         <libid>1</libid>
-        <id>115</id>
+        <id>211</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
+        <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_bounce</functionname>
+        <functionname>action_sound</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <kind>6</kind>
+            <sound>snd_bounce</sound>
           </argument>
           <argument>
-            <kind>4</kind>
+            <kind>3</kind>
             <string>0</string>
           </argument>
         </arguments>
@@ -297,7 +295,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_invisible_wall">
+    <event eventtype="4" ename="obj_space_piece_02">
       <action>
         <libid>1</libid>
         <id>115</id>
@@ -322,26 +320,28 @@
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="4" ename="obj_space_piece_03">
       <action>
         <libid>1</libid>
-        <id>211</id>
+        <id>115</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
+        <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_sound</functionname>
+        <functionname>action_bounce</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>6</kind>
-            <sound>snd_bounce</sound>
+            <kind>4</kind>
+            <string>0</string>
           </argument>
           <argument>
-            <kind>3</kind>
+            <kind>4</kind>
             <string>0</string>
           </argument>
         </arguments>

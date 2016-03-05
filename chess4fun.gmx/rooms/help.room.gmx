@@ -54,7 +54,7 @@ global.menu_selected = "Introduction";</code>
   </views>
   <instances>
     <instance objName="obj_logo" x="29" y="648" name="inst_84F1F9AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="32" y="2" name="inst_B35E5882" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="32" y="0" name="inst_B35E5882" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="proceed1" x="2" y="2" name="inst_5BA9BDD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_msg3" x="256" y="731" name="inst_7C5A1EC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_menu" x="989" y="0" name="inst_323A6231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

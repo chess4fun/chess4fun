@@ -50,24 +50,17 @@
             <kind>1</kind>
             <string>if enter3 = true
 {
-//globalvar level;
-//globalvar puzzle;
-//global.my_level = 1;
-//global.my_puzzle = 1;
-//global.max_puzzles = 15;
-//global.puzzles_per_level = 3;
-//global.puzzles_solved_in_level = 0;
-//global.spr_animation = "spr_pawn";
-global.test = true;
+
+//global.test = true;
 if global.max_puzzles=global.my_puzzle
 {
     room_goto(asset_get_index('final'));
 }
 else
 {
-//room_goto(asset_get_index('spacestation'));
+
   room_goto(asset_get_index('level1'));
-    //room_goto(asset_get_index('level'+string(global.my_level)));
+
 }
 }
 </string>
@@ -95,7 +88,7 @@ else
             <string>if keyboard_check_pressed(vk_space)
 {
 if enter3=false {enter3=true; exit;}
-if enter3=true {enter3=false; exit;}
+
 }
 
 if mouse_y &gt; 32 {global.menu = false}

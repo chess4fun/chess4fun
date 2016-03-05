@@ -13,9 +13,7 @@
   <code>json(global.my_puzzle);
 global.review = false;
 global.current_move = 0;
-global.message_text = "Press 1, 2 ,3 or 4 to select an answer. #F1 for Help; ESC to exit"
-//puzzles(global.my_puzzle);
-  //instance_create(60, 60,obj_black_king);</code>
+global.message_text = "Press 1, 2 ,3 or 4 to select an answer. #F1 for Help; ESC to exit"</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -57,7 +55,6 @@ global.message_text = "Press 1, 2 ,3 or 4 to select an answer. #F1 for Help; ESC
   </views>
   <instances>
     <instance objName="object3" x="0" y="0" name="inst_76181695" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="input" x="256" y="-224" name="inst_38354473" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_logo" x="7" y="651" name="inst_0626BCAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_opt1" x="534" y="149" name="inst_10769FD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_opt2" x="534" y="226" name="inst_294CF4AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -66,6 +63,7 @@ global.message_text = "Press 1, 2 ,3 or 4 to select an answer. #F1 for Help; ESC
     <instance objName="obj_forward" x="177" y="525" name="inst_0BE98D4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_reverse" x="135" y="525" name="inst_2C871C64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_next" x="225" y="525" name="inst_6E802FD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="input" x="32" y="0" name="inst_917017D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

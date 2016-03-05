@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>    selection=4;
     draw=true;
-    scr_input_analysis();
+    scr_input_analysis_new();
 </string>
           </argument>
         </arguments>

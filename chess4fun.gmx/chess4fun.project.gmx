@@ -1007,7 +1007,6 @@
     <script>scripts\json.gml</script>
     <script>scripts\puzzles.gml</script>
     <script>scripts\draw_help.gml</script>
-    <script>scripts\scr_input_analysis.gml</script>
     <script>scripts\scr_input_analysis_new.gml</script>
     <script>scripts\scr_next_puzzle.gml</script>
     <script>scripts\save_high_scores.gml</script>
@@ -1024,113 +1023,103 @@
     <font>fonts\font4</font>
   </fonts>
   <objects name="objects">
-    <object>objects\objectBlack</object>
-    <object>objects\object3</object>
-    <object>objects\obj_exit</object>
-    <object>objects\objectwhite</object>
+    <object>objects\congrats</object>
+    <object>objects\fialize</object>
     <object>objects\input</object>
     <object>objects\navigate</object>
     <object>objects\navigate1</object>
-    <object>objects\proceed1</object>
-    <object>objects\proceed3</object>
-    <object>objects\proceed2</object>
-    <object>objects\fialize</object>
+    <object>objects\obj_ananya_talk</object>
+    <object>objects\obj_black_bishop</object>
+    <object>objects\obj_black_king</object>
+    <object>objects\obj_black_knight</object>
+    <object>objects\obj_black_pawn</object>
+    <object>objects\obj_black_queen</object>
+    <object>objects\obj_black_rook</object>
     <object>objects\obj_camel</object>
-    <object>objects\obj_piece_jump1</object>
-    <object>objects\obj_pawn_fly</object>
+    <object>objects\obj_cert</object>
+    <object>objects\obj_cert_display</object>
+    <object>objects\obj_chess4fun_menu</object>
+    <object>objects\obj_door</object>
+    <object>objects\obj_draw_highScore</object>
+    <object>objects\obj_exit</object>
     <object>objects\obj_fly_2</object>
-    <object>objects\obj_fly_5</object>
-    <object>objects\obj_fly_4</object>
     <object>objects\obj_fly_3</object>
-    <object>objects\obj_knight_fly</object>
-    <object>objects\obj_space_piece_01</object>
-    <object>objects\obj_space_piece_03</object>
-    <object>objects\obj_space_piece_02</object>
-    <object>objects\obj_space_piece_04</object>
-    <object>objects\obj_space_piece_05</object>
-    <object>objects\obj_piece_jump2</object>
-    <object>objects\obj_piece_jump4</object>
-    <object>objects\obj_piece_jump5</object>
-    <object>objects\obj_piece_jump3</object>
+    <object>objects\obj_fly_4</object>
+    <object>objects\obj_fly_5</object>
+    <object>objects\obj_forward</object>
+    <object>objects\obj_fun_game_help</object>
+    <object>objects\obj_fun_game_intro</object>
+    <object>objects\obj_fun_game_menu</object>
+    <object>objects\obj_game_over</object>
+    <object>objects\obj_goto_level_2</object>
+    <object>objects\obj_goto_level_3</object>
+    <object>objects\obj_goto_level_4</object>
+    <object>objects\obj_goto_level_5</object>
+    <object>objects\obj_help</object>
+    <object>objects\obj_help_menu</object>
+    <object>objects\obj_high_score_menu</object>
+    <object>objects\obj_high_scores_title</object>
     <object>objects\obj_horse</object>
+    <object>objects\obj_instr</object>
+    <object>objects\obj_intro_menu</object>
+    <object>objects\obj_invisible_wall</object>
+    <object>objects\obj_knight_fly</object>
+    <object>objects\obj_logo</object>
+    <object>objects\obj_menu</object>
     <object>objects\obj_Msg1</object>
-    <object>objects\obj_options</object>
     <object>objects\obj_msg2</object>
     <object>objects\obj_msg3</object>
     <object>objects\obj_msg4</object>
-    <object>objects\congrats</object>
-    <object>objects\object14</object>
-    <object>objects\obj_goto_level_2</object>
-    <object>objects\obj_goto_level_4</object>
-    <object>objects\obj_goto_level_5</object>
-    <object>objects\obj_goto_level_3</object>
-    <object>objects\obj_white_king</object>
-    <object>objects\obj_white_queen</object>
-    <object>objects\obj_white_rook</object>
-    <object>objects\obj_white_bishop</object>
-    <object>objects\obj_white_knight</object>
-    <object>objects\obj_white_pawn</object>
-    <object>objects\obj_black_king</object>
-    <object>objects\obj_black_queen</object>
-    <object>objects\obj_black_rook</object>
-    <object>objects\obj_black_bishop</object>
-    <object>objects\obj_black_knight</object>
-    <object>objects\obj_black_pawn</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_invisible_wall</object>
-    <object>objects\obj_door</object>
-    <object>objects\obj_help</object>
-    <object>objects\obj_logo</object>
-    <object>objects\obj_steps</object>
-    <object>objects\obj_puz_bak</object>
+    <object>objects\obj_next</object>
+    <object>objects\obj_no</object>
     <object>objects\obj_opt1</object>
     <object>objects\obj_opt2</object>
-    <object>objects\obj_fun_game_help</object>
     <object>objects\obj_opt3</object>
     <object>objects\obj_opt4</object>
-    <object>objects\obj_menu</object>
-    <object>objects\obj_cert</object>
-    <object>objects\obj_help_menu</object>
-    <object>objects\obj_high_score_menu</object>
-    <object>objects\obj_cert_display</object>
-    <object>objects\obj_draw_highScore</object>
-    <object>objects\obj_high_scores_title</object>
-    <object>objects\obj_game_over</object>
-    <object>objects\obj_timer</object>
-    <object>objects\obj_question</object>
-    <object>objects\obj_yes</object>
-    <object>objects\obj_no</object>
-    <object>objects\obj_fun_game_intro</object>
-    <object>objects\obj_intro_menu</object>
-    <object>objects\obj_chess4fun_menu</object>
+    <object>objects\obj_options</object>
+    <object>objects\obj_pawn_fly</object>
+    <object>objects\obj_piece_jump1</object>
+    <object>objects\obj_piece_jump2</object>
+    <object>objects\obj_piece_jump3</object>
+    <object>objects\obj_piece_jump4</object>
+    <object>objects\obj_piece_jump5</object>
+    <object>objects\obj_puz_bak</object>
     <object>objects\obj_puzzles_menu</object>
-    <object>objects\obj_fun_game_menu</object>
-    <object>objects\obj_forward</object>
+    <object>objects\obj_question</object>
     <object>objects\obj_reverse</object>
-    <object>objects\obj_next</object>
-    <object>objects\obj_instr</object>
-    <object>objects\obj_ananya_talk</object>
+    <object>objects\obj_space_piece_01</object>
+    <object>objects\obj_space_piece_02</object>
+    <object>objects\obj_space_piece_03</object>
+    <object>objects\obj_space_piece_04</object>
+    <object>objects\obj_space_piece_05</object>
+    <object>objects\obj_steps</object>
+    <object>objects\obj_timer</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_white_bishop</object>
+    <object>objects\obj_white_king</object>
+    <object>objects\obj_white_knight</object>
+    <object>objects\obj_white_pawn</object>
+    <object>objects\obj_white_queen</object>
+    <object>objects\obj_white_rook</object>
+    <object>objects\obj_yes</object>
+    <object>objects\object14</object>
+    <object>objects\object3</object>
+    <object>objects\objectBlack</object>
+    <object>objects\objectwhite</object>
+    <object>objects\proceed1</object>
+    <object>objects\proceed2</object>
+    <object>objects\proceed3</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room3</room>
+    <room>rooms\TheFirstRoom</room>
     <room>rooms\final</room>
-    <room>rooms\next_level</room>
     <room>rooms\level1</room>
-    <room>rooms\level2</room>
-    <room>rooms\level3</room>
-    <room>rooms\next_level_2</room>
-    <room>rooms\next_level_5</room>
-    <room>rooms\next_level_4</room>
     <room>rooms\fun_game</room>
-    <room>rooms\next_level_3</room>
-    <room>rooms\level4</room>
     <room>rooms\fun_game_help</room>
     <room>rooms\interim</room>
-    <room>rooms\level5</room>
     <room>rooms\certificate</room>
     <room>rooms\high_score</room>
     <room>rooms\help</room>
-    <room>rooms\room1</room>
     <room>rooms\spacestation</room>
   </rooms>
   <help>
